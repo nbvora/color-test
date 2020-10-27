@@ -27,10 +27,10 @@ const Home = () => {
 
   return (
     <Fragment>
-      <section className="banner_part">
+      <section className="banner_part" style={{ height: "80vh" }}>
         <div className="container-fluid">
           <div className="row align-items-center">
-            <div className="col-lg-12 d-flex flex-row flex-wrap mt-1">
+            <div className="col-lg-12 mt-3">
               <ColorPalette colorList={colorListB} />
             </div>
           </div>
